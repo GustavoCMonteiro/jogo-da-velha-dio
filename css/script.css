@@ -1,5 +1,20 @@
 body {
-  background-color: rgb(207, 207, 207);
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #34344a,
+    #403852,
+    #4e3c58,
+    #5d3f5c,
+    #6c425e,
+    #794561,
+    #864964,
+    #934c65,
+    #a14f69,
+    #af536c,
+    #be566f,
+    #cc5a71
+  );
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,21 +28,37 @@ h1 {
   text-align: center;
   font-weight: bold;
   margin: 20px 0;
+  color: #f0f757;
 }
 
-.jogo-flex {
-  max-width: 300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
+.jogo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.jogo-linha div {
-  background-color: rgb(141, 141, 141);
+.box {
+  background-color: #cc5a71;
+  color: #cc5a71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
   width: 100px;
   height: 100px;
-  margin: 5px;
+  margin-bottom: 10px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.jogo-grid .jogo-linha .color {
+  color: #34344a;
+}
+
+.boxh:hover {
+  background-color: #c89b7b;
+  color: #c89b7b;
 }
 
 h2 {
@@ -35,20 +66,33 @@ h2 {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
+  color: #f0f757;
 }
 
-h3 {
+.botao {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+a {
+  color: #34344a;
+  font-weight: bold;
+  justify-content: center;
   padding: 10px 25px;
-  max-width: 80px;
-  background-color: rgb(97, 253, 253);
+  background-color: #c89b7b;
   border: 1px solid black;
   text-align: center;
-  margin: 20px auto;
-  cursor: pointer;
   transition: 0.5s;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-h3:hover {
-  background-color: rgb(62, 165, 165);
+a:hover {
+  background-color: #f0f757;
+  transform: scale(1.2);
+}
+
+.bgYellow {
+  background-color: #f0f757;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,32 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/script.css">
 </head>
+
 <body>
   <section class="container">
     <h1>Jogo da Velha</h1>
-    <div class="jogo-flex">
+    <div class="jogo-grid">
       <div class="jogo-linha">
-        <div id="box1"></div>
-        <div id="box2"></div>
-        <div id="box3"></div>
+        <div class="box boxh" id="box1">-</div>
+        <div class="box boxh" id="box2">-</div>
+        <div class="box boxh" id="box3">-</div>
       </div>
       <div class="jogo-linha">
-        <div id="box4"></div>
-        <div id="box5"></div>
-        <div id="box6"></div>
+        <div class="box boxh" id="box4">-</div>
+        <div class="box boxh" id="box5">-</div>
+        <div class="box boxh" id="box6">-</div>
       </div>
       <div class="jogo-linha">
-        <div id="box7"></div>
-        <div id="box8"></div>
-        <div id="box9"></div>
+        <div class="box boxh" id="box7">-</div>
+        <div class="box boxh" id="box8">-</div>
+        <div class="box boxh" id="box9">-</div>
       </div>
     </div>
-    <h2>Jogador:</h2>
-    <h2>Vencedor:</h2>
-    <h3>Resetar</h3>
+    <h2 class="player">Jogador: X</h2>
+    <h2 class="winner">Vencedor:</h2>
+    <div class="botao"><a href="">Resetar</a></div>
   </section>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
