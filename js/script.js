@@ -70,4 +70,5 @@ button.addEventListener("click", function (event) {
   }
   player.textContent = "Jogador: X";
   winner.textContent = "Vencedor:";
+  turn = true;
 });
