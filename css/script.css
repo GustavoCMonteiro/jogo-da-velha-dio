@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(207, 207, 207);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.jogo-flex {
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.jogo-linha div {
+  background-color: rgb(141, 141, 141);
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  padding: 10px 25px;
+  max-width: 80px;
+  background-color: rgb(97, 253, 253);
+  border: 1px solid black;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+h3:hover {
+  background-color: rgb(62, 165, 165);
+}
