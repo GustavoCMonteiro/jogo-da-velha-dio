@@ -1,20 +1,6 @@
 body {
   height: 100vh;
-  background-image: linear-gradient(
-    to right bottom,
-    #34344a,
-    #403852,
-    #4e3c58,
-    #5d3f5c,
-    #6c425e,
-    #794561,
-    #864964,
-    #934c65,
-    #a14f69,
-    #af536c,
-    #be566f,
-    #cc5a71
-  );
+  background-color: rgb(39, 39, 39);
   font-family: Arial, Helvetica, sans-serif;
 }
 
